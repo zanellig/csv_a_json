@@ -18,7 +18,7 @@ fs.readFile(csvFilePath, 'utf8', (err, data) => {
 
   // Pasar las lineas a un array
   const lineas_como_string = [];
-  for (let i = 2; i <= lines.length; i++) {
+  for (let i = 1; i <= lines.length; i++) {
     const item = lines[i];
     lineas_como_string.push(item);
   }
